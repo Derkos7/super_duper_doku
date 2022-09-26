@@ -48,7 +48,7 @@ namespace SuperDuperBackend
 
             app.UseCors(MyAllowSpecificOrigins);
 
-            app.Close();
+            app.Run("test");
 
         }
     }
